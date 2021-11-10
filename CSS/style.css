@@ -176,7 +176,7 @@ body, html {
         font-size: var(--h1-Mob);
     }
     .multi__color {
-        font-size: var(--h1-Mob);
+        font-size: var(--h1-Mob) !important;
     }
     .video__src img:nth-child(1) {
         width: 60%;
