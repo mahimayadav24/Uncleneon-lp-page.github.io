@@ -115,18 +115,6 @@ body, html {
     line-height: 0;
 }
 
-.multi__color1 {
-    font-family: 'Jost__Black';
-    font-size: var(--h1);
-    /* background: -o-linear-gradient(left, #E047Ff 0%, #E047Ff 90%);
-    background: -webkit-gradient(linear, left top, right top, from(#E047Ff), color-stop(90%, #E047Ff));
-    background: linear-gradient(to right, #E047Ff 0%, #E047Ff 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    color: #E047Ff;
-    line-height: 0;
-}
-
 .center-div {
     padding: 0px 20px 0px 20px;
 }
@@ -197,9 +185,6 @@ body, html {
     .center-div button {
         font-size: calc(12pt + 0.15vw);
     }
-    .multi__color1 {
-        font-size: var(--h1-Mob);
-    }
 }
 
 @media screen and (max-width:640px) {
@@ -227,9 +212,6 @@ body, html {
     }
     .video__src img:nth-child(2) {
         top: 35%;
-    }
-    .multi__color1 {
-        line-height: 1.2195;
     }
 }
 
