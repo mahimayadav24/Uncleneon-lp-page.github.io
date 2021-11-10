@@ -196,6 +196,9 @@ body, html {
     .center-div button {
         font-size: calc(12pt + 0.15vw);
     }
+    .multi__color1 {
+        font-size: var(--h1-Mob);
+    }
 }
 
 @media screen and (max-width:640px) {
