@@ -104,15 +104,16 @@ body, html {
     line-height: 0;
 }
 
-.multi__color {
+.center-div .multi__color {
     font-family: 'Jost__Black';
     font-size: var(--h1);
-    background: -o-linear-gradient(left, #24E1FF 0%, #E047Ff 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#24E1FF), color-stop(100%, #E047Ff));
-    background: linear-gradient(to right, #24E1FF 0%, #E047Ff 100%);
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height: 0;
+    -moz-text-fill-color: transparent;
 }
 
 .center-div {
@@ -173,7 +174,7 @@ body, html {
     .sp__one {
         font-size: var(--h1-Mob);
     }
-    .multi__color {
+    .center-div h1 .multi__color {
         font-size: var(--h1-Mob);
     }
     .video__src img:nth-child(1) {
