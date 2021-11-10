@@ -114,6 +114,7 @@ body, html {
     -webkit-text-fill-color: transparent;
     line-height: 0;
 }
+
 .multi__color1 {
     font-family: 'Jost__Black';
     font-size: var(--h1);
@@ -226,6 +227,9 @@ body, html {
     }
     .video__src img:nth-child(2) {
         top: 35%;
+    }
+    .multi__color1 {
+        line-height: 1.2195;
     }
 }
 
