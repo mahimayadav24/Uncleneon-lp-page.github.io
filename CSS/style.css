@@ -175,7 +175,7 @@ body, html {
     .sp__one {
         font-size: var(--h1-Mob);
     }
-    .center-div h1 .multi__color {
+    .center-div .multi__color {
         font-size: var(--h1-Mob);
     }
     .video__src img:nth-child(1) {
