@@ -107,9 +107,9 @@ body, html {
 .multi__color {
     font-family: 'Jost__Black';
     font-size: var(--h1);
-    background: -o-linear-gradient(left, #24E1FF 0%, #E047Ff 50%);
-    background: -webkit-gradient(linear, left top, right top, from(#24E1FF), color-stop(50%, #E047Ff));
-    background: linear-gradient(to right, #24E1FF 0%, #E047Ff 50%);
+    background: -o-linear-gradient(left, #24E1FF 0%, #E047Ff 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#24E1FF), color-stop(100%, #E047Ff));
+    background: linear-gradient(to right, #24E1FF 0%, #E047Ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 0;
@@ -117,9 +117,9 @@ body, html {
 .multi__color1 {
     font-family: 'Jost__Black';
     font-size: var(--h1);
-    background: -o-linear-gradient(left, #24E1FF 0%, #E047Ff 50%);
-    background: -webkit-gradient(linear, left top, right top, from(#24E1FF), color-stop(50%, #E047Ff));
-    background: linear-gradient(to right, #24E1FF 0%, #E047Ff 50%);
+    background: -o-linear-gradient(left, #E047Ff 0%, #E047Ff 90%);
+    background: -webkit-gradient(linear, left top, right top, from(#E047Ff), color-stop(90%, #E047Ff));
+    background: linear-gradient(to right, #E047Ff 0%, #E047Ff 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 0;
